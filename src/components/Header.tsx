@@ -8,7 +8,6 @@ import { useIsMobile } from '../hooks/use-mobile';
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { getTotalItems, toggleCart } = useCart();
-  const isMobile = useIsMobile();
   const location = useLocation();
 
   const totalItems = getTotalItems();

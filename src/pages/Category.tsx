@@ -2,7 +2,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { products, getProductsByCategory } from '../data/products';
+import { getProductsByCategory } from '../data/products';
 
 const Category: React.FC = () => {
   const { category } = useParams<{ category: string }>();

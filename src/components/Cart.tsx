@@ -9,7 +9,6 @@ const Cart: React.FC = () => {
     state, 
     closeCart, 
     updateQuantity, 
-    removeItem, 
     clearCart,
     getTotalItems,
     getTotalPrice 

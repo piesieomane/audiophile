@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, ShoppingCart, X } from 'lucide-react';
 import { useCart } from '../contexts/CartContext';
-import { useIsMobile } from '../hooks/use-mobile';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
